@@ -7,7 +7,6 @@ I have used Caddy which is a webserver which will be used to take our request to
 2. Install git & clone the github repo into your machine:
 	  2.1. sudo apt-get install git-all -y
     2.2. git clone <repo_url>
-
 3. Run CURL commnds to add Caddy into the repository & install Caddy
     3.1. sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
     3.2. curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
