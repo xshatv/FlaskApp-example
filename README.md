@@ -1,6 +1,6 @@
 This is to deploy Flask python app project through Caddy.
 
-The steps to deply Flask app are as follows:
+The steps to deply Flask app are as follows (VIEW IT IN RAW Format):
 I have used Caddy which is a webserver which will be used to take our request to the outside world.
 
 1. Launch an ubuntu machine & run sudo apt-get update -y"
